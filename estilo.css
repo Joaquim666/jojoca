@@ -1,0 +1,55 @@
+h1{
+    color: greenyellow;
+}
+.img{
+    display: flex;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #900;
+}
+#but{
+    margin-top: 20px;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.dark-mode {
+    background-color: black;
+    color: white; /* Default text color in dark mode */
+}
+
+.dark-mode h1, .dark-mode p {
+    color: white; /* Text color for h1 and p in dark mode */
+}
